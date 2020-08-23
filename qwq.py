@@ -2,10 +2,7 @@
 import numpy as np
 import cv2
 from flask import Flask, Response
-try:
-    from PIL import ImageGrab
-except:
-    import pyscreenshot as ImageGrab
+from PIL import ImageGrab
 
 app = Flask(__name__)
 
